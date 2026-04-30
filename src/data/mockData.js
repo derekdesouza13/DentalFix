@@ -1,0 +1,162 @@
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. Priya Sharma",
+    qualification: "BDS, MDS (Orthodontics)",
+    experience: "12 Years",
+    specialty: "Orthodontics & Braces",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
+    rating: 4.9,
+    patients: "2,400+",
+  },
+  {
+    id: 2,
+    name: "Dr. Arjun Mehta",
+    qualification: "BDS, MDS (Prosthodontics)",
+    experience: "9 Years",
+    specialty: "Implants & Prosthodontics",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
+    rating: 4.8,
+    patients: "1,900+",
+  },
+  {
+    id: 3,
+    name: "Dr. Neha Kulkarni",
+    qualification: "BDS, Fellowship in Cosmetic Dentistry",
+    experience: "7 Years",
+    specialty: "Cosmetic & Smile Design",
+    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop&crop=face",
+    rating: 4.9,
+    patients: "1,500+",
+  },
+];
+
+export const assistants = [
+  {
+    id: 4,
+    name: "Ms. Anjali Verma",
+    qualification: "Dental Hygienist",
+    experience: "5 Years",
+    specialty: "Cleaning & Hygiene",
+    image: "https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?w=400&h=400&fit=crop&crop=face",
+  },
+];
+
+export const treatments = [
+  "General Check-up & Cleaning",
+  "Teeth Whitening",
+  "Metal Braces",
+  "Ceramic Braces",
+  "Invisible Aligners",
+  "Dental Implants",
+  "Root Canal Treatment",
+  "Smile Makeover",
+  "Veneers",
+  "Crowns & Bridges",
+  "Tooth Extraction",
+  "Free Consultation",
+];
+
+export const reviews = [
+  {
+    id: 1,
+    name: "Rahul Desai",
+    rating: 5,
+    text: "Absolutely amazing experience at Dentalfix! Dr. Priya fixed my crooked teeth with invisible aligners in just 8 months. The clinic is spotless and the staff is incredibly warm. 10/10 recommend!",
+    treatment: "Invisible Aligners",
+    date: "March 2024",
+    before: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=300&h=250&fit=crop",
+    after: "https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?w=300&h=250&fit=crop",
+  },
+  {
+    id: 2,
+    name: "Sneha Patil",
+    rating: 5,
+    text: "Got my dental implants done by Dr. Arjun. The procedure was painless and the results look completely natural. I'm smiling more confidently than ever before!",
+    treatment: "Dental Implants",
+    date: "January 2024",
+    before: "https://images.unsplash.com/photo-1564564244660-5d73c057f2d2?w=300&h=250&fit=crop",
+    after: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=250&fit=crop",
+  },
+  {
+    id: 3,
+    name: "Vikram Nair",
+    rating: 5,
+    text: "Dr. Neha transformed my smile completely with veneers. The attention to detail is unmatched. They took the time to understand exactly what I wanted and delivered beyond my expectations!",
+    treatment: "Smile Makeover",
+    date: "February 2024",
+    before: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=300&h=250&fit=crop",
+    after: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=300&h=250&fit=crop",
+  },
+  {
+    id: 4,
+    name: "Anita Joshi",
+    rating: 5,
+    text: "Best dental clinic I've ever visited! The booking was seamless, waiting time was minimal, and the treatment was top-notch. My kids also love coming here now. Very child-friendly environment.",
+    treatment: "Family Dental Care",
+    date: "April 2024",
+    before: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=250&fit=crop",
+    after: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=250&fit=crop",
+  },
+];
+
+export const bracesOptions = [
+  {
+    type: "metal",
+    label: "Metal Braces",
+    icon: "🦷",
+    priceRange: "₹18,000 – ₹30,000",
+    duration: "12–24 months",
+    color: "from-gray-400 to-gray-600",
+    accent: "#6b7280",
+    benefits: [
+      "Most affordable option",
+      "Highly effective for complex cases",
+      "Durable & long-lasting",
+      "No food restrictions initially",
+      "Regular adjustments included",
+    ],
+    tag: "Most Popular",
+  },
+  {
+    type: "ceramic",
+    label: "Ceramic Braces",
+    icon: "✨",
+    priceRange: "₹28,000 – ₹45,000",
+    duration: "12–20 months",
+    color: "from-amber-200 to-amber-400",
+    accent: "#d97706",
+    benefits: [
+      "Tooth-colored, less visible",
+      "Strong and stain-resistant brackets",
+      "Great aesthetics vs cost ratio",
+      "Works for most alignment issues",
+      "Comfortable to wear",
+    ],
+    tag: "Best Value",
+  },
+  {
+    type: "invisible",
+    label: "Invisible Aligners",
+    icon: "💎",
+    priceRange: "₹55,000 – ₹1,20,000",
+    duration: "6–18 months",
+    color: "from-blue-400 to-sky-600",
+    accent: "#0A84FF",
+    benefits: [
+      "Virtually invisible treatment",
+      "Removable — eat anything",
+      "Custom 3D-printed aligners",
+      "Digital progress tracking",
+      "Faster results in many cases",
+    ],
+    tag: "Premium",
+  },
+];
+
+export const stats = [
+  { value: "15+", label: "Years of Excellence" },
+  { value: "10,000+", label: "Happy Patients" },
+  { value: "98%", label: "Satisfaction Rate" },
+  { value: "4.9★", label: "Google Rating" },
+];
