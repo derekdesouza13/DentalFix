@@ -83,13 +83,21 @@ It focuses on **clean UI/UX, responsiveness, and patient conversion**, making it
 DentalFix/
 
 ├── public/
+
 ├── src/
+
 │ ├── components/
+
 │ ├── assets/
+
 │ ├── App.jsx
+
 │ └── main.jsx
+
 ├── index.html
+
 ├── package.json
+
 └── vite.config.js
 
 
@@ -111,6 +119,7 @@ npm run dev
 Visit:
 
 http://localhost:5173
+
 🚀 Build for Production
 npm run build
 
