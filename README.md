@@ -216,6 +216,7 @@ theme: {
 Then use:
 
 bg-primary
+
 text-primary
 
 
@@ -223,14 +224,18 @@ text-primary
 
 Update details in:
 
-src/components/Footer.jsx
+src/components/Footer.
+
 src/components/Contact.jsx
 
 Modify:
 
 Address
+
 Phone number
+
 Email
+
 Working hours
 
 
@@ -243,7 +248,9 @@ src/components/AppointmentForm.jsx
 You can:
 
 Add/remove fields
+
 Change treatment options
+
 Connect to backend later
 
 
@@ -256,7 +263,9 @@ src/components/Pricing.jsx
 Update:
 
 Braces types
+
 Pricing ranges
+
 Descriptions
 
 
