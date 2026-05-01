@@ -144,3 +144,124 @@ npm install && npm run build
 Publish Directory:
 
 dist
+
+---
+
+## 🎨 Customization Guide
+
+You can easily customize the DentalFix project to match any dental clinic's branding and details.
+
+---
+
+### 🏥 Change Clinic Name
+
+Open the following files:
+- `src/components/Navbar.jsx`
+- `src/components/Footer.jsx`
+- `src/components/Hero.jsx`
+
+Replace **"DentalFix"** with your desired clinic name.
+
+You can also use global search in your editor:
+
+DentalFix
+
+
+---
+
+### 🎨 Change Colors (Tailwind)
+
+This project uses Tailwind CSS for styling.
+
+#### Option 1: Quick Changes
+
+Search and replace Tailwind color classes like:
+
+text-blue-500
+bg-blue-600
+
+
+---
+
+#### Option 2: Global Theme (Recommended)
+
+Edit the file:
+
+tailwind.config.js
+
+
+Example:
+```js
+theme: {
+  extend: {
+    colors: {
+      primary: "#0A84FF",
+      secondary: "#1E293B",
+      accent: "#38BDF8",
+    },
+  },
+}
+
+Then use:
+
+bg-primary
+text-primary
+
+
+📞 Change Contact Information
+
+Update details in:
+
+src/components/Footer.jsx
+src/components/Contact.jsx
+
+Modify:
+
+Address
+Phone number
+Email
+Working hours
+
+
+📅 Modify Appointment Form
+
+Edit:
+
+src/components/AppointmentForm.jsx
+
+You can:
+
+Add/remove fields
+Change treatment options
+Connect to backend later
+
+
+💰 Update Pricing / Services
+
+Edit:
+
+src/components/Pricing.jsx
+
+Update:
+
+Braces types
+Pricing ranges
+Descriptions
+
+
+🖼️ Replace Images
+
+Go to:
+
+src/assets/
+
+Replace placeholder images with real clinic photos.
+
+
+💬 WhatsApp Integration
+
+Find the WhatsApp link and replace:
+
+https://wa.me/XXXXXXXXXX
+
+with the clinic’s phone number.
