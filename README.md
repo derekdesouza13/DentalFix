@@ -191,7 +191,7 @@ tailwind.config.js
 
 
 Example:
-```js
+``js
 theme: {
   extend: {
     colors: {
@@ -208,7 +208,7 @@ bg-primary
 text-primary
 
 
-📞 Change Contact Information
+#### 📞 Change Contact Information
 
 Update details in:
 
