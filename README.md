@@ -219,6 +219,7 @@ bg-primary
 
 text-primary
 
+---
 
 #### 📞 Change Contact Information
 
@@ -238,6 +239,7 @@ Email
 
 Working hours
 
+---
 
 #### 📅 Modify Appointment Form
 
@@ -253,6 +255,7 @@ Change treatment options
 
 Connect to backend later
 
+---
 
 #### 💰 Update Pricing / Services
 
@@ -268,6 +271,7 @@ Pricing ranges
 
 Descriptions
 
+---
 
 #### 🖼️ Replace Images
 
@@ -277,6 +281,7 @@ src/assets/
 
 Replace placeholder images with real clinic photos.
 
+---
 
 #### 💬 WhatsApp Integration
 
