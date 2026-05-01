@@ -107,7 +107,7 @@ DentalFix/
 
 ### 1️⃣ Clone the Repository
 
-```bash
+`bash
 git clone https://github.com/derekdesouza13/DentalFix.git
 cd DentalFix
 
