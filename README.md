@@ -191,17 +191,28 @@ tailwind.config.js
 
 
 Example:
-``js
+
+```js
+
 theme: {
+
   extend: {
+
     colors: {
+
       primary: "#0A84FF",
+
       secondary: "#1E293B",
+
       accent: "#38BDF8",
+
     },
+
   },
+
 }
 
+```
 Then use:
 
 bg-primary
@@ -223,7 +234,7 @@ Email
 Working hours
 
 
-📅 Modify Appointment Form
+#### 📅 Modify Appointment Form
 
 Edit:
 
@@ -236,7 +247,7 @@ Change treatment options
 Connect to backend later
 
 
-💰 Update Pricing / Services
+#### 💰 Update Pricing / Services
 
 Edit:
 
@@ -249,7 +260,7 @@ Pricing ranges
 Descriptions
 
 
-🖼️ Replace Images
+#### 🖼️ Replace Images
 
 Go to:
 
@@ -258,7 +269,7 @@ src/assets/
 Replace placeholder images with real clinic photos.
 
 
-💬 WhatsApp Integration
+#### 💬 WhatsApp Integration
 
 Find the WhatsApp link and replace:
 
