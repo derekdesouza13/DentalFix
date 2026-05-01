@@ -108,7 +108,9 @@ DentalFix/
 ### 1️⃣ Clone the Repository
 
 `bash
+
 git clone https://github.com/derekdesouza13/DentalFix.git
+
 cd DentalFix
 
 ### 2️⃣ Install Dependencies
@@ -124,6 +126,7 @@ Visit:
 http://localhost:5173
 
 🚀 Build for Production
+
 npm run build
 
 Output will be generated in the dist/ folder.
