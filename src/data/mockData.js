@@ -80,7 +80,7 @@ export const reviews = [
   },
   {
     id: 3,
-    name: "Vikram Nair",
+    name: "Teresa Lisbon",
     rating: 5,
     text: "Dr. Neha transformed my smile completely with veneers. The attention to detail is unmatched. They took the time to understand exactly what I wanted and delivered beyond my expectations!",
     treatment: "Smile Makeover",
