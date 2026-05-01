@@ -125,13 +125,13 @@ Visit:
 
 http://localhost:5173
 
-🚀 Build for Production
+### 🚀 Build for Production
 
 npm run build
 
 Output will be generated in the dist/ folder.
 
-🌍 Deployment
+### 🌍 Deployment
 
 This project is deployed using Render.
 
