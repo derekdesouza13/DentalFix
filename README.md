@@ -110,11 +110,14 @@ DentalFix/
 ```bash
 git clone https://github.com/derekdesouza13/DentalFix.git
 cd DentalFix
-2️⃣ Install Dependencies
+
+### 2️⃣ Install Dependencies
 npm install
-3️⃣ Start Development Server
+
+### 3️⃣ Start Development Server
 npm run dev
-4️⃣ Open in Browser
+
+### 4️⃣ Open in Browser
 
 Visit:
 
